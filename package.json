@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cross-env NODE_ENV=production pm2 start index.js --name 'myweb'",
-    "dev": "cross-env NODE_ENV=production node index.js"
+    "dev": "supervisor index.js"
   },
   "author": "",
   "license": "ISC",
